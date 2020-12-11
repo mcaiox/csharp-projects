@@ -1,0 +1,15 @@
+/Users/chin/Projects/C#/bin/Debug/net5.0/classes.deps.json
+/Users/chin/Projects/C#/bin/Debug/net5.0/classes.runtimeconfig.json
+/Users/chin/Projects/C#/bin/Debug/net5.0/classes.runtimeconfig.dev.json
+/Users/chin/Projects/C#/bin/Debug/net5.0/classes.dll
+/Users/chin/Projects/C#/bin/Debug/net5.0/ref/classes.dll
+/Users/chin/Projects/C#/bin/Debug/net5.0/classes.pdb
+/Users/chin/Projects/C#/obj/Debug/net5.0/classes.csprojAssemblyReference.cache
+/Users/chin/Projects/C#/obj/Debug/net5.0/classes.GeneratedMSBuildEditorConfig.editorconfig
+/Users/chin/Projects/C#/obj/Debug/net5.0/classes.AssemblyInfoInputs.cache
+/Users/chin/Projects/C#/obj/Debug/net5.0/classes.AssemblyInfo.cs
+/Users/chin/Projects/C#/obj/Debug/net5.0/classes.csproj.CoreCompileInputs.cache
+/Users/chin/Projects/C#/obj/Debug/net5.0/classes.dll
+/Users/chin/Projects/C#/obj/Debug/net5.0/ref/classes.dll
+/Users/chin/Projects/C#/obj/Debug/net5.0/classes.pdb
+/Users/chin/Projects/C#/obj/Debug/net5.0/classes.genruntimeconfig.cache
