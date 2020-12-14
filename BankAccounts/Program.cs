@@ -1,7 +1,7 @@
 ﻿using System;
 
 
-namespace classes
+namespace MySuperBank
 {
     class Program
     {

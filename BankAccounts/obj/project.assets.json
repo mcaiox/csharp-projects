@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/chin/Projects/C#/classes.csproj",
-      "projectName": "classes",
-      "projectPath": "/Users/chin/Projects/C#/classes.csproj",
+      "projectUniqueName": "/Users/chin/csharp-projects/BankAccounts/MySuperBank.csproj",
+      "projectName": "MySuperBank",
+      "projectPath": "/Users/chin/csharp-projects/BankAccounts/MySuperBank.csproj",
       "packagesPath": "/Users/chin/.nuget/packages/",
-      "outputPath": "/Users/chin/Projects/C#/obj/",
+      "outputPath": "/Users/chin/csharp-projects/BankAccounts/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/chin/.config/NuGet/NuGet.Config"

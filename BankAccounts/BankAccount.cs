@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-namespace classes // Namespace allows you top logically organise your code.
+namespace MySuperBank // Namespace allows you top logically organise your code.
 {
     public class BankAccount
     {

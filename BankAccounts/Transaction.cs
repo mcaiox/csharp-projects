@@ -1,6 +1,6 @@
 using System;
 
-namespace classes{
+namespace MySuperBank{
     public class Transaction{
         public decimal Amount{ get; }
         public DateTime Date { get; }

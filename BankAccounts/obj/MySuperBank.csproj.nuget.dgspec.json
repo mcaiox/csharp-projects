@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "/Users/chin/csharp-projects/BankAccounts/classes.csproj": {}
+    "/Users/chin/csharp-projects/BankAccounts/MySuperBank.csproj": {}
   },
   "projects": {
-    "/Users/chin/csharp-projects/BankAccounts/classes.csproj": {
+    "/Users/chin/csharp-projects/BankAccounts/MySuperBank.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/chin/csharp-projects/BankAccounts/classes.csproj",
-        "projectName": "classes",
-        "projectPath": "/Users/chin/csharp-projects/BankAccounts/classes.csproj",
+        "projectUniqueName": "/Users/chin/csharp-projects/BankAccounts/MySuperBank.csproj",
+        "projectName": "MySuperBank",
+        "projectPath": "/Users/chin/csharp-projects/BankAccounts/MySuperBank.csproj",
         "packagesPath": "/Users/chin/.nuget/packages/",
         "outputPath": "/Users/chin/csharp-projects/BankAccounts/obj/",
         "projectStyle": "PackageReference",
