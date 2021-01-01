@@ -12,3 +12,4 @@
 /Users/chin/csharp-projects/BankAccounts/obj/Release/net5.0/ref/MySuperBank.dll
 /Users/chin/csharp-projects/BankAccounts/obj/Release/net5.0/MySuperBank.pdb
 /Users/chin/csharp-projects/BankAccounts/obj/Release/net5.0/MySuperBank.genruntimeconfig.cache
+/Users/chin/csharp-projects/BankAccounts/obj/Release/net5.0/MySuperBank.csprojAssemblyReference.cache
