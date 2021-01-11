@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text;
+
 namespace MySuperBank // Namespace allows you top logically organise your code.
 {
     public class BankAccount
     {
         private static int accountNumberSeed = 1234567890;
-        //Private means it can only be accessed by code inside the BA class.
+        //Private means it can only be accessed by code inside the BankAccount class.
         //Static meaning it is shared by all of the BankAccount objects.
         //The value of a non static variable is unique to each instance of the BA object.
 
@@ -15,7 +17,7 @@ namespace MySuperBank // Namespace allows you top logically organise your code.
         //This creates a private field called Owner, and two methods getOwner and setOwner.
         public decimal Balance
         {
-            get
+            get //getter becomes a function of some sort
             {
                 decimal balance = 0;
                 foreach (var item in allTransactions)
@@ -65,5 +67,20 @@ namespace MySuperBank // Namespace allows you top logically organise your code.
         }
         private List<Transaction> allTransactions = new List<Transaction>();
 
-    }
+        public string GetAccountHistory()
+        {
+            var report = new System.Text.StringBuilder();
+
+            decimal balance = 0;
+            report.AppendLine("Date\t\tAmount\tBalance\tNote");
+            foreach (var item in allTransactions)
+            {
+                balance += item.Amount;
+                report.AppendLine($"{item.Date.ToShortDateString()}\t{item.Amount}\t{balance}\t{item.Notes}");
+            }
+
+            return report.ToString();
+        }
+
+    } 
 }
