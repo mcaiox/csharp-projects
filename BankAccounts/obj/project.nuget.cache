@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wXREwa0B0+6FDzFa/NpNUHhvyvk9sA44Zst9cyQ10njq0C2KxAdxtclOqGyRv4F3P9iICdMtDtnNPBrI9/m1hw==",
+  "dgSpecHash": "jx7Tv4naGziF2Whdk+PDD1I91Dt+mKLp+vwJB4rcgnpx9l56g88sgGema68/6195YGyhhKnpHqec+hLI1kikSw==",
   "success": true,
-  "projectFilePath": "/Users/chin/csharp-projects/BankAccounts/MySuperBank.csproj",
+  "projectFilePath": "C:\\Users\\Chin\\Desktop\\csharp-projects\\BankAccounts\\MySuperBank.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

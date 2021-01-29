@@ -8,24 +8,26 @@
     "net5.0": []
   },
   "packageFolders": {
-    "/Users/chin/.nuget/packages/": {}
+    "C:\\Users\\Chin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/chin/csharp-projects/BankAccounts/MySuperBank.csproj",
+      "projectUniqueName": "C:\\Users\\Chin\\Desktop\\csharp-projects\\BankAccounts\\MySuperBank.csproj",
       "projectName": "MySuperBank",
-      "projectPath": "/Users/chin/csharp-projects/BankAccounts/MySuperBank.csproj",
-      "packagesPath": "/Users/chin/.nuget/packages/",
-      "outputPath": "/Users/chin/csharp-projects/BankAccounts/obj/",
+      "projectPath": "C:\\Users\\Chin\\Desktop\\csharp-projects\\BankAccounts\\MySuperBank.csproj",
+      "packagesPath": "C:\\Users\\Chin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Chin\\Desktop\\csharp-projects\\BankAccounts\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/chin/.config/NuGet/NuGet.Config"
+        "C:\\Users\\Chin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -58,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

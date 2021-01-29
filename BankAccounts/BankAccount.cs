@@ -10,7 +10,15 @@ namespace MySuperBank // Namespace allows you top logically organise your code.
         //Private means it can only be accessed by code inside the BankAccount class.
         //Static meaning it is shared by all of the BankAccount objects.
         //The value of a non static variable is unique to each instance of the BA object.
+        public BankAccount(string name, decimal initialBalance)
+        {
+            this.Number = accountNumberSeed.ToString();
+            accountNumberSeed++;
 
+            this.Owner = name;
+            MakeDeposit(initialBalance, DateTime.Now, "Initial balance");
+        }
+        private List<Transaction> allTransactions = new List<Transaction>();
         //The three below are properties. Properties are data elements and can have code that enforces validation or other rules.
         public string Number { get; }  //It has a 10-digit number that uniquely identifies the bank account.
         public string Owner { get; set; } //It has a string that stores the name or names of the owners.
@@ -57,15 +65,7 @@ namespace MySuperBank // Namespace allows you top logically organise your code.
             allTransactions.Add(withdrawal);
         }
 
-        public BankAccount(string name, decimal initialBalance)
-        {
-            this.Number = accountNumberSeed.ToString();
-            accountNumberSeed++;
 
-            this.Owner = name;
-            MakeDeposit(initialBalance, DateTime.Now, "Initial balance");
-        }
-        private List<Transaction> allTransactions = new List<Transaction>();
 
         public string GetAccountHistory()
         {
